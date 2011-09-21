@@ -1,0 +1,138 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = D2AAC07D0554694100DB518D /* AIRExtensionC */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* AIRExtensionC */,
+		);
+		codeSenseManager = 484040D813B1F87D00411191 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					886,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					846,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338036690;
+			PBXWorkspaceStateSaveDate = 338036690;
+		};
+		perUserProjectItems = {
+			48799C891425E36B00A79E04 /* PBXTextBookmark */ = 48799C891425E36B00A79E04 /* PBXTextBookmark */;
+			48EAD13B1427404300157469 /* PBXTextBookmark */ = 48EAD13B1427404300157469 /* PBXTextBookmark */;
+			48EAD13C1427404300157469 /* PBXTextBookmark */ = 48EAD13C1427404300157469 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 484040D713B1F87D00411191 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	484040D713B1F87D00411191 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	484040D813B1F87D00411191 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	484040DA13B1F8EE00411191 /* FlashRuntimeExtensions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 7878}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{5458, 1785}";
+			sepNavWindowFrame = "{{34, 304}, {1069, 874}}";
+		};
+	};
+	484040DE13B1F9DD00411191 /* cbatterylife.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 884}}";
+			sepNavSelRange = "{232, 9}";
+			sepNavVisRange = "{0, 1506}";
+		};
+	};
+	48799C891425E36B00A79E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA747D9E0F9514B9006C5449 /* AIRExtensionC_Prefix.pch */;
+		name = "AIRExtensionC_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	48EAD13B1427404300157469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 484040DE13B1F9DD00411191 /* cbatterylife.m */;
+		name = "cbatterylife.m: 24";
+		rLen = 0;
+		rLoc = 533;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 0;
+	};
+	48EAD13C1427404300157469 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 484040DE13B1F9DD00411191 /* cbatterylife.m */;
+		name = "cbatterylife.m: 14";
+		rLen = 9;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 1506;
+		vrLoc = 0;
+	};
+	AA747D9E0F9514B9006C5449 /* AIRExtensionC_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 555}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 188}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* AIRExtensionC */ = {
+		activeExec = 0;
+	};
+}

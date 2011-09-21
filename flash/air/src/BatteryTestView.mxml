@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" 
+		title="BatteryTestView" creationComplete="handleCreationComplete();">
+	
+	<fx:Script>
+		<![CDATA[
+			import com.custardbelly.air.extensions.battery.ios.Battery;
+			
+			protected var _batteryExtension:Battery;
+			
+			protected function handleCreationComplete():void
+			{
+				_batteryExtension = new Battery();
+				
+				lifeButton.addEventListener( MouseEvent.CLICK, handleLifeRequest, false, 0, true );
+				infoButton.addEventListener( MouseEvent.CLICK, handleInfoRequest, false, 0, true );
+			}
+			
+			protected function handleLifeRequest( evt:Event ):void
+			{
+				try {
+					console.appendText( "Battery Life Percentage: " );
+					console.appendText( ( _batteryExtension.getBatteryLife() * 100 ).toString() + "%\n" );
+				}
+				catch( e:Error )
+				{
+					console.appendText( "Error: " + e.message );
+				}
+			}
+			
+			protected function handleInfoRequest( evt:Event ):void
+			{
+				console.appendText( "Battery State: " + ( _batteryExtension.getBatteryState() ).toString() + "\n" );	
+			}
+		]]>
+	</fx:Script>
+	
+	<s:layout>
+		<s:VerticalLayout paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10" />
+	</s:layout>
+	
+	<s:TextArea id="console" width="100%" height="100%" editable="false" text="Hello World!" />
+	<s:HGroup width="100%" height="24" verticalAlign="middle">
+		<s:Button id="lifeButton" label="get life" />
+		<s:Button id="infoButton" label="get info" />
+	</s:HGroup>
+	
+</s:View>
